@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caster Quiz</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2332/2332801.png">
+    <link rel="stylesheet" href=".\style.css"/>
+    <script src=".\script.js" defer></script>
+</head>
+
+<body>
+    <!-- Create a quiz to help your friends find out...what kind of caster are you? -->
+    <div id="content">
+        
+        <h1>What type of caster are you?</h1>
+
+        <div class="quizQuestion">
+
+            <h2>1. Which picture describes you?</h2>
+
+            <div class="answers">
+                
+                <div data-value="A" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6369/6369589.png" height=150 width=150/>
+                    </div>
+                </div>
+                
+                <div data-value="B" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5346/5346399.png" height=150 width=150>
+                    </div>
+                </div>
+                
+                <div data-value="C" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6080/6080638.png" height=150 width=150/>
+                    </div>
+                </div>
+                
+                <div data-value="D" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/8810/8810456.png" height=150 width=150/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="quizQuestion">
+
+            <h2>2. Which place would you rather die at?</h2>
+
+            <div class="answers">
+
+                <div data-value="A" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1927/1927130.png" height=150 width=150/>
+                    </div>
+                </div>
+                
+                <div data-value="B" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3021/3021531.png" height=150 width=150/>
+                    </div>
+                </div>
+
+                <div data-value="C" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3277/3277595.png" height=150 width=150/>
+                    </div>
+                </div>
+                
+                <div data-value="D" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2359/2359692.png" height=150 width=150/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quizQuestion">
+
+            <h2>3. What is your chosen pet?</h2>
+
+            <div class="answers">
+
+                <div data-value="A" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/616/616519.png" height=150 width=150/>
+                    </div>
+                </div>
+
+                <div data-value="B" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/141/141850.png" height=150 width=150/>
+                    </div>
+                </div>
+
+                <div data-value="C" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/523/523483.png" height=150 width=150/>
+                    </div>
+                </div>
+                
+                <div data-value="D" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1553/1553257.png" height=150 width=150/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quizQuestion">
+
+            <h2>4. What is your preferred spell?</h2>
+            
+            <div class="answers">
+
+                <div data-value="A" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/7734/7734417.png" height=150 width=150/>
+                    </div>
+                </div>
+
+                <div data-value="B" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/7248/7248066.png" height=150 width=150/>
+                    </div>
+                </div>
+
+                <div data-value="C" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4243/4243300.png" height=150 width=150/>
+                    </div>
+                </div>
+                
+                <div data-value="D" class="answer">
+                    <div class="answerText">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3915/3915582.png" height=150 width=150/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="result" id="a-personality">
+            <h2>Fire Caster</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/8339/8339065.png" height=150 width=150/>
+            <p>Set your enemies ablaze and send them into a panic.</p>
+        </div>
+
+        <div class="result" id="b-personality">
+            <h2>Electrical Caster</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/4549/4549441.png" height=150 width=150/>
+            <p>Electrons will provide you with the strength you need.</p>
+        </div>
+
+        <div class="result" id="c-personality">
+            <h2>Natural Caster</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/3426/3426286.png" height=150 width=150/>
+            <p>You can manipulate nature to create (or take) life itself.</p>
+        </div>
+
+        <div class="result" id="d-personality">
+            <h2>Glacial Caster</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/1541/1541675.png" height=150 width=150/>
+            <p>You are cold as ice and will let your enemies feel it.</p>
+        </div>
+
+        <div class="result" id="no-personality">
+            <h2>Match Not Found</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/2332/2332597.png" height=150 width=150/>
+            <p>Casting may not be for you. Perhaps archery is a skill you could take up?</p>
+        </div>
+
+        <div id="footer">
+            <button class="btn btn-primary btn-block btn-lg" id="submitButton">Submit</button>
+            <button class="btn btn-primary btn-block btn-lg" id="retryButton">Retry</button>
+        </div>
+        <div class = "attributions">
+            <ul>
+            <li>Wizard/archer icons created by <a href="https://www.flaticon.com/free-icons/wizard" title="wizard icons">Flat Icons - Flaticon</a></li>
+            <li>Flower icon created by <a href="https://www.flaticon.com/free-icons/flower" title="flower icons">iconixar - Flaticon</a></li>
+            <li>Precious stone icon created by <a href="https://www.flaticon.com/free-icons/precious-stone" title="precious stone icons">Kason Koo - Flaticon</a></li>
+            <li>Desert icon created by <a href="https://www.flaticon.com/free-icons/desert" title="desert icons">justicon - Flaticon</a></li>
+            <li>Glacier icon created by <a href="https://www.flaticon.com/free-icons/glacier" title="glacier icons">Chanut-is-Industries - Flaticon</a></li>
+            <li>Lightning icons created by <a href="https://www.flaticon.com/free-icons/user-interface" title="user interface icons">icon blast - Flaticon</a></li>
+            <li>Poison icon created by <a href="https://www.flaticon.com/free-icons/poison" title="poison icons">Smashicons - Flaticon</a></li>
+            <li>Necromancer icon created by <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">max.icons - Flaticon</a></li>
+            <li>All other icons created by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik - Flaticon</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
